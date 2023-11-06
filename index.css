@@ -88,3 +88,24 @@
 .section-2 .box-right {
   background-color: cornflowerblue;
 }
+.section-5 {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.section-5 .box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.section-5 .box1 {
+  background-color: green;
+}
+.section-5 .box2 {
+  background-color: darkslategray;
+}
+.section-5 .box3 {
+  background-color: lightgreen;
+}
