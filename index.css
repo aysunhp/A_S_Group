@@ -88,3 +88,35 @@
 .section-2 .box-right {
   background-color: cornflowerblue;
 }
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 150px;
+  gap: 160px;
+}
+
+.section-4 .box-left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.section-4 .box-left .box1 {
+  background-color: lime;
+}
+.section-4 .box-left .box2 {
+  background-color: turquoise;
+}
+
+.section-4 .box-right {
+  width: 28%;
+  border: 2px solid black;
+  background-color: green;
+  height: 100px;
+  margin-left: 190px;
+}
