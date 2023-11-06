@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
-.section-1 {
+.section-1,
+.section-2 {
   display: flex;
   border: 2px solid black;
   height: 150px;
@@ -68,4 +69,22 @@
 .section-3 .box-right .box2 {
   background-color: darkslateblue;
   margin-right: 100px;
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2 .box {
+  width: 300px;
+  height: 100px;
+  border: solid 2px black;
+}
+
+.section-2 .box-left {
+  background-color: chocolate;
+}
+
+.section-2 .box-right {
+  background-color: cornflowerblue;
 }
