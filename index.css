@@ -120,3 +120,48 @@
   height: 100px;
   margin-left: 190px;
 }
+.section-5 {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.section-5 .box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.section-5 .box1 {
+  background-color: green;
+}
+.section-5 .box2 {
+  background-color: darkslategray;
+}
+.section-5 .box3 {
+  background-color: lightgreen;
+}
+
+.section-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  gap: 20px;
+  border: 2px solid pink;
+}
+.center {
+  display: flex;
+  gap: 40px;
+}
+.section-6 .box {
+  width: 100px;
+  height: 100px;
+}
+
+.center .box1 {
+  background-color: cornflowerblue;
+}
+.center .box2 {
+  background-color: olive;
+}
