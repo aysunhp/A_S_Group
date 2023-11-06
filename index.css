@@ -38,3 +38,34 @@
 .box4 {
   background-color: skyblue;
 }
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 150px;
+  gap: 160px;
+}
+.section-3 .box-left {
+  width: 28%;
+  border: 2px solid black;
+  background-color: dimgrey;
+  height: 100px;
+  margin-left: 190px;
+}
+.section-3 .box-right {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.section-3 .box-right .box1 {
+  background-color: brown;
+  margin-right: 100px;
+}
+.section-3 .box-right .box2 {
+  background-color: darkslateblue;
+  margin-right: 100px;
+}
